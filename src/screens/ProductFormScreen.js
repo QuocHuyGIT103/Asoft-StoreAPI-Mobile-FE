@@ -42,7 +42,7 @@ const ProductFormScreen = ({ route, navigation }) => {
       !formData.productName.trim() ||
       !formData.price.trim()
     ) {
-      Alert.alert("Lỗi", "Vui lòng nhập đầy đủ thông tin");
+      Alert.alert("Lỗi", "Vui lòng nhập đầy đủ thông tin bắt buộc");
       return;
     }
 
